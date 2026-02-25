@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background: #f8f9fc;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.expense-item button {
+  background: #dc3545;
+}
